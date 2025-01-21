@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Gideon+Roman&family=Kreon:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ===================common============================ */
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1240px;
+    margin: auto;
+
+}
+.common-link
+{
+    padding: 9px 43px;
+    background-color: #F4B205;
+    color: #780014;
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+/* =====================header section====================== */
+.header
+{
+    padding-top: 54px;
+    background-image: url('..//image/banner\ image.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.nav-main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-child ul li
+{
+display: inline-block;
+padding-right: 20px;
+
+}
+.nav-child ul li a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: "Kreon", serif;
+}
+/* ================header body section================ */
+.header-body
+{
+    padding: 160px 0px 166px 0px;
+    max-width: 623px;
+}
+.header-body h1
+{
+font-weight: 700;
+font-size: 72px;
+color: #FFFFFF;
+padding-bottom: 30px;
+font-family:'Times New Roman', Times, serif;
+
+}
+.header-body h1 span
+{
+    color: #F4B205;
+}
+.header p
+{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Lato", serif;
+    padding-bottom: 44px;
+}
+ .header-body a
+ {
+    border-radius: 62px;
+    background-image: linear-gradient(to right,#F4B205 100%,#A47700 100%);
+    padding: 12px 50px;
+ }
+ /* =================our story section======================== */
+ .story-sec
+ {
+    padding: 78px 0px;
+    background: linear-gradient(to right,#343434 100%,#191512 70%);
+ }
+ .story-main
+ {
+    display: flex;
+    justify-content: space-between;
+ }
+ .story-child
+ {
+    width: 100%;
+
+ }
+ .story-child-2
+ {
+    padding: 52px 0px 52px 20px;
+ }
+ .story-child-2 h2
+ {
+    color: #F4B205;
+    font-weight: 800;
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+ }
+ .story-child-2 p
+ {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Lato", serif;
+    padding-bottom: 36px;
+    color: #FFFFFF;
+ }
+ .story-child-2 a
+ {
+   border-radius: 62px; 
+ }
+/* =======================CHOOSE US SECTION============== */
+.choose-us
+{
+    background-image: url('..//image/Group\ 2389.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+.choose-main
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.choose-main h2
+{
+color: #F4B205;
+font-weight: 800;
+font-size: 38px;
+font-family: 'Times New Roman', Times, serif;
+}
+.choose-after
+{
+    width: 80px;
+    height: 4px;
+    background-color:#780014 ;
+    margin-top: 4px;
+    position: relative;
+
+}
+.choose-after::after
+{
+    content: '';
+    position: absolute;
+    left: 81px;
+    bottom: 0px;
+    width: 31px;
+    height: 4px;
+    background-color: #F4B205;
+    margin-left: 2px;
+}
+.sec-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.choose-child-2
+{
+    padding-top: 50px;
+}
+.sec-child img
+{
+padding-right: 10px;
+}
+.sec-heading
+{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Lato", serif;
+}
+.sec-child p
+{
+    padding-top: 5px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    max-width: 324px;
+
+}
+
+/* ====================OUR CLASSES=========================== */
+
+.card
+{
+    padding: 81px 0px 60px 150px;
+    background-image: url('..//image/Rectangle\ 60.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.card h2
+{
+    position: relative;
+    color: #F4B205;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 38px;
+
+}
+.card h2::after
+{
+    content:'' ;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    width: 60px;
+    height: 4px;
+    background-color: #780014;
+}
+.card-main
+{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-main .card-child-1 p
+{
+    max-width: 348px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 180px;
+
+}
+.card-child
+{
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+
+}
+
+.card-child div img
+{
+    padding: 35px 46px 33px 46px;
+}
+.card-child span
+{
+   color: #F4B205;
+   font-family: "Lato", serif;
+   font-weight: 800;
+   font-size: 30px;
+   padding: 33px 112px 20px;
+   text-transform: capitalize;
+}
+.card-child-1 a
+{
+    display: inline-block;
+    border: 2px solid #F4B205;
+    border-radius: 50%;
+    align-items: center;
+    padding: 5px;
+}
+/* .card-child-1 a img
+{
+    width: 26px;
+    height: 27px;
+} */
+
+/* ===================stat================================== */
+.stat
+{
+    padding-top: 80px;
+    background-image: url('..//image/stat.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.stat-main
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1078px;
+    margin: auto;
+}
+.stat-child h2
+{
+    font-weight: 800;
+    font-size: 38px;
+   font-family: "Lato", serif;
+    color: #FFFFFF;
+    padding: 15px 0px 8px 0px;
+
+}
+.stat-child p
+
+{
+    color:#FFFFFF;
+   font-family: "Lato", serif;
+   font-weight: 700;
+   font-size: 22px;
+   padding-bottom: 80px;
+   text-transform: capitalize;
+}
+
+/* =============================trainer================================ */
+.trainer
+{
+    padding: 80px 0px 60px 0px;
+    background: linear-gradient(to right,#343434 100%,#191512 70%);
+    
+}
+ 
+.trainer-main
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.trainer-child h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #F4B205;
+    text-transform: capitalize;
+    position: relative;
+}
+.trainer-child h2::after
+{
+    content: '';
+    left: 0px;
+    bottom: -6px;
+    width: 80px;
+    height: 4px;
+    background-color: #780014;
+    position: absolute;
+}
+.trainer-child p
+{
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+   font-family: "Lato", serif;
+    max-width: 556px;
+    padding-bottom: 30px;
+
+}
+a.common-link
+{
+    border-radius: 62px;
+}
+
+/* ===================================================================== */
+.plan
+{
+    background-image: url('..//image/Group\ 2396.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plan h2
+{
+    padding-top: 80px;
+    color: #F4B205;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: capitalize;
+
+}
+.underline
+{
+    width: 80px;
+    height: 4px;
+    background-color: #780014;
+    position: relative;
+}
+.underline::after
+{
+content: '';
+position: absolute;
+left: 84px;
+bottom: 0px;
+background-color: #F4B205;
+width: 31px;
+height: 4px;
+}
+.plan-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.plan-child
+{
+    width: 295px;
+    height: 495px;
+    background-image: url('..//image/Rectangle\ 67.svg');
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
